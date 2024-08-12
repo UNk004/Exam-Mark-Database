@@ -94,3 +94,4 @@ void examName(std::string exmNam)
         examNum = 3;
     }
     }
+    //written by UNk004;
