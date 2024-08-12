@@ -10,3 +10,5 @@ void LOG(int a)
 {
     std::cout << a << std::endl;
 }
+
+//idk what i was thinking 'bout when i wrote this header file

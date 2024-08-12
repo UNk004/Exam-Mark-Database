@@ -11,9 +11,9 @@ std::string dataInput[4];
 std::string exmNamR;
 
 int examNum=3;
-bool checkFile();
-void dataEntry(std::string data[]);
-void examName(std::string exmNam);
+bool checkFile();//checks if the desired file is available or not.If not available then creates the file
+void dataEntry(std::string data[]);//Get user input on the marks of the examination
+void examName(std::string exmNam);//Get the name of the exam from the user
 
 int main()
 {   
@@ -66,7 +66,7 @@ void dataEntry(std::string data[])
 }
 
 
-void examName(std::string exmNam)
+void examName(std::string exmNam) 
 {
     std::cout << "Enter the name of the exam -> ";
     getline(std::cin, exmNam);
@@ -95,3 +95,5 @@ void examName(std::string exmNam)
     }
     }
     //written by UNk004;
+
+    //TODO: Add grading system in both Gpa and Cgpa
