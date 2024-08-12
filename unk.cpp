@@ -72,7 +72,7 @@ void examName(std::string exmNam)
     getline(std::cin, exmNam);
     std::ofstream theFile("dataFile.txt", std::ios::app);
     theFile <<"--------------------------------------------------------------------------\n";
-    theFile <<std::right<<std::setw(37) <<exmNam <<"examination marksheet : "<<"\n";
+    theFile <<std::right<<std::setw(37) <<exmNam <<" examination marksheet : "<<"\n";
     theFile <<"--------------------------------------------------------------------------\n";
     theFile << std::left<<std::setw(20)<<"Subject" << std::left<<std::setw(20)  << "Obtained Marks"<< std::left<<std::setw(20) << "Highest Marks"<< std::left<<std::setw(20) << "Total Marks" << "\n";
     theFile <<"--------------------------------------------------------------------------\n";
